@@ -1,0 +1,12 @@
+body {
+  position: relative;
+  left: 50px;
+  background-color: darkcyan;
+  font-family: Helvetica, sans-serif;
+  color: White;
+}
+
+.rules {
+  font-family: Ariel, sans-serif;
+  color: yellow;
+}

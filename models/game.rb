@@ -11,9 +11,9 @@ class Game
     elsif @player1 == 'rock' && @player2 == 'paper'
        'Paper wins'
     elsif @player1 == 'rock' && @player2 == 'rock'
-       'Tie!'
+       'a Tie!'
     elsif @player1 == 'paper' && @player2 == 'paper'
-       'Tie!'
+       'a Tie!'
     elsif @player1 == 'paper' && @player2 == 'rock'
        'Paper wins'
     elsif @player1 == 'paper' && @player2 == 'scissors'
@@ -23,27 +23,9 @@ class Game
     elsif @player1 == 'scissors' && @player2 == 'paper'
        'Scissors wins'
     else @player1 == 'scissors' && @player2 == 'scissors'
-       'Tie'
+       'a Tie'
     end
   end
 
-    # elsif player1 = 'paper'
-    #   case paper
-    #   when player2 = 'scissors'
-    #     p 'Scissors wins'
-    #   when player2 = 'paper'
-    #     p 'Tie!'
-    #   when player2 = 'rock'
-    #     p 'Paper wins'
-    #   end
-    #
-    # else player1 = 'scissors'
-    #   case scissors
-    #   when player2 = 'scissors'
-    #     p 'Tie!'
-    #   when player2 = 'paper'
-    #     p 'Scissors wins'
-    #   when player2 = 'rock'
-    #     p 'Rock wins'
-    #   end
-  end
+
+end
